@@ -1,7 +1,6 @@
 package nl.tudelft.jpacman.npc.ghost;
 
 import com.google.common.collect.Lists;
-import nl.tudelft.jpacman.board.Board;
 import nl.tudelft.jpacman.board.BoardFactory;
 import nl.tudelft.jpacman.board.Direction;
 import nl.tudelft.jpacman.board.Square;
