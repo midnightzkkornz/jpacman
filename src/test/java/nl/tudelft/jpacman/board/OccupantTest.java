@@ -43,15 +43,13 @@ class OccupantTest {
     void testOccupy() {
         // Remove the following placeholder:
         Square target = new BasicSquare();
+        Square CheckTarget= new BasicSquare();
+
         target.isAccessibleTo(unit);
-        System.out.println(target);
         unit.occupy(target);
 
-        Square FakeTarget = new BasicSquare();
-        System.out.println(unit.getSquare());
-
         assertThat(unit.getSquare()).isEqualTo(target);
-        assertThat(unit.getSquare()).isNotEqualTo(FakeTarget);
+        assertThat(unit.getSquare()).isNotEqualTo(CheckTarget);
 
     }
 
