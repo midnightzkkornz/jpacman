@@ -9,6 +9,7 @@ import static org.mockito.Mockito.when;
 
 import nl.tudelft.jpacman.board.Square;
 import nl.tudelft.jpacman.npc.Ghost;
+import nl.tudelft.jpacman.board.Board;
 
 import com.google.common.collect.Lists;
 import org.junit.jupiter.api.BeforeEach;
