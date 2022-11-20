@@ -39,7 +39,6 @@ public class MapParserTest {
         map.add("#P        G#");
         map.add("############");
         mapParser.parseMap(map);
-
         Mockito.verify(levelFactory, Mockito.times(1)).createGhost();
     }
 
